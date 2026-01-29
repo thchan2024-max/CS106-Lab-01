@@ -8,7 +8,7 @@
  */
 int tmax(void)
 {
-    return 2;
+    return (-1 >> 30) ^ 0x80000000;
 }
 
 int test_tmax(void)

@@ -8,7 +8,7 @@
  */
 int tmin(void)
 {
-    return 2;
+    return (255 << 31);
 }
 
 int test_tmin(void)

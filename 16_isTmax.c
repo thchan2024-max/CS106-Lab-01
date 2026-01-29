@@ -9,7 +9,7 @@
  */
 int isTmax(int x)
 {
-    return 2;
+    return (x^x);
 }
 
 int test_isTmax(int x)
